@@ -1,0 +1,817 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result>
+<vuln><name>VMSA-2010-0015.1 : VMware ESX third party updates for Service Console</name><cveID>CVE-2009-2409, CVE-2009-3245, CVE-2009-3555, CVE-2009-3767, CVE-2010-0433, CVE-2010-0734, CVE-2010-0826, CVE-2010-1646</cveID><desc>a. Service Console update for NSS_db
+&lt;br&gt;
+The service console package NSS_db is updated to version
+nss_db-2.2-35.4.el5_5.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the name CVE-2010-0826 to this issue.
+&lt;br&gt;
+b. Service Console update for OpenLDAP
+&lt;br&gt;
+The service console package OpenLDAP updated to version
+2.3.43-12.el5.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the name CVE-2009-3767 to this issue.
+&lt;br&gt;
+c. Service Console update for cURL
+&lt;br&gt;
+The service console packages for cURL updated to version
+7.15.5-9.el5.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the name CVE-2010-0734 to this issue.
+&lt;br&gt;
+d. Service Console update for sudo
+&lt;br&gt;
+The service console package sudo updated to version 1.7.2p1-7.el5_5.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the name CVE-2010-1646 to this issue.
+&lt;br&gt;
+e. Service Console update for OpenSSL, GnuTLS, NSS and NSPR
+&lt;br&gt;
+Service Console updates for OpenSSL to version 097a-0.9.7a-9.el5_4.2
+and version 0.9.8e-12.el5_4.6, GnuTLS to version 1.4.1-3.el5_4.8,
+and NSS to version 3.12.6-1.3235.vmw and NSPR to version
+4.8.4-1.3235.vmw. These four updates are bundled together due to
+their mutual dependencies.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the names CVE-2009-3555, CVE-2009-2409, CVE-2009-3245
+and CVE-2010-0433 to the issues addressed in this update.
+</desc><repair>http://www.vmware.com/security/advisories/VMSA-2010-0015.html</repair></vuln><vuln><name>VMSA-2010-0016.1 : VMware ESXi and ESX third party updates for Service Console and Likewise components</name><cveID>CVE-2009-0844, CVE-2009-0845, CVE-2009-0846, CVE-2009-4212, CVE-2010-0291, CVE-2010-0307, CVE-2010-0415, CVE-2010-0622, CVE-2010-1087, CVE-2010-1088, CVE-2010-1321, CVE-2010-1437</cveID><desc>a. Service Console OS update for COS kernel
+&lt;br&gt;
+This patch updates the service console kernel to fix multiple
+security issues.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the names CVE-2010-0415, CVE-2010-0307,
+CVE-2010-0291, CVE-2010-0622, CVE-2010-1087, CVE-2010-1437, and
+CVE-2010-1088 to these issues.
+&lt;br&gt;
+b. Likewise package updates
+&lt;br&gt;
+Updates to the likewisekrb5, likewiseopenldap, likewiseopen,
+and pamkrb5 packages address several security issues.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the names CVE-2009-0844, CVE-2009-0845,
+CVE-2009-0846, CVE-2009-4212, and CVE-2010-1321 to these issues.
+</desc><repair>http://www.vmware.com/security/advisories/VMSA-2010-0016.html</repair></vuln><vuln><name>VMSA-2010-0017.1 : VMware ESX third party update for Service Console kernel</name><cveID>CVE-2010-0291, CVE-2010-0307, CVE-2010-0415, CVE-2010-0622, CVE-2010-1087, CVE-2010-1088, CVE-2010-1437, CVE-2010-3081</cveID><desc>a. Service Console OS update for COS kernel package.
+&lt;br&gt;
+This patch updates the Service Console kernel to fix a stack
+pointer underflow issue in the 32-bit compatibility layer.
+&lt;br&gt;
+Exploitation of this issue could allow a local user to gain
+additional privileges.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the name CVE-2010-3081 to this issue.
+</desc><repair>http://www.vmware.com/security/advisories/VMSA-2010-0017.html</repair></vuln><vuln><name>VMSA-2010-0019.3 : VMware ESX third party updates for Service Console</name><cveID>CVE-2009-0590, CVE-2009-2409, CVE-2009-3555, CVE-2010-0405, CVE-2010-3069</cveID><desc>a. Service Console update for samba
+&lt;br&gt;
+The service console package samba is updated to version
+3.0.9-1.3E.18.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the name CVE-2010-3069 to this issue.
+&lt;br&gt;
+b. Service Console update for bzip2
+&lt;br&gt;
+The service console package bzip2 is updated to version
+1.0.2-14.EL3 in ESX 3.x and version 1.0.3-6 in ESX
+4.x.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the name CVE-2010-0405 to this issue.
+&lt;br&gt;
+c. Service Console update for OpenSSL
+&lt;br&gt;
+The service console package openssl updated to version
+0.9.7a-33.26.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the names CVE-2009-0590, CVE-2009-2409 and
+CVE-2009-3555 to the issues addressed in this update.
+</desc><repair>http://www.vmware.com/security/advisories/VMSA-2010-0019.html</repair></vuln><vuln><name>VMSA-2011-0001.3 : VMware ESX third party updates for Service Console packages glibc, sudo, and openldap</name><cveID>CVE-2010-0211, CVE-2010-0212, CVE-2010-2956, CVE-2010-3847, CVE-2010-3856</cveID><desc>a. Service Console update for glibc
+&lt;br&gt;
+The service console packages glibc, glibc-common, and nscd are each
+updated to version 2.5-34.4908.vmw.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the names CVE-2010-3847 and CVE-2010-3856 to the issues
+addressed in this update.
+&lt;br&gt;
+b. Service Console update for sudo
+&lt;br&gt;
+The service console package sudo is updated to version
+1.7.2p1-8.el5_5.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the name CVE-2010-2956 to the issue addressed in this
+update.
+&lt;br&gt;
+c. Service Console update for openldap
+&lt;br&gt;
+The service console package openldap is updated to version
+2.3.43-12.el5_5.1.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the names CVE-2010-0211 and CVE-2010-0212 to the issues
+addressed in this update.
+</desc><repair>http://www.vmware.com/security/advisories/VMSA-2011-0001.html</repair></vuln><vuln><name>VMSA-2011-0003.2 : Third party component updates for VMware vCenter Server, vCenter Update Manager, ESXi and ESX</name><cveID>CVE-2008-0085, CVE-2008-0086, CVE-2008-0106, CVE-2008-0107, CVE-2008-3825, CVE-2008-5416, CVE-2009-1384, CVE-2009-2693, CVE-2009-2901, CVE-2009-2902, CVE-2009-3548, CVE-2009-3555, CVE-2009-4308, CVE-2010-0003, CVE-2010-0007, CVE-2010-0008, CVE-2010-0082, CVE-2010-0084, CVE-2010-0085, CVE-2010-0087, CVE-2010-0088, CVE-2010-0089, CVE-2010-0090, CVE-2010-0091, CVE-2010-0092, CVE-2010-0093, CVE-2010-0094, CVE-2010-0095, CVE-2010-0291, CVE-2010-0307, CVE-2010-0410, CVE-2010-0415, CVE-2010-0433, CVE-2010-0437, CVE-2010-0622, CVE-2010-0730, CVE-2010-0734, CVE-2010-0740, CVE-2010-0837, CVE-2010-0838, CVE-2010-0839, CVE-2010-0840, CVE-2010-0841, CVE-2010-0842, CVE-2010-0843, CVE-2010-0844, CVE-2010-0845, CVE-2010-0846, CVE-2010-0847, CVE-2010-0848, CVE-2010-0849, CVE-2010-0850, CVE-2010-0886, CVE-2010-1084, CVE-2010-1085, CVE-2010-1086, CVE-2010-1087, CVE-2010-1088, CVE-2010-1157, CVE-2010-1173, CVE-2010-1187, CVE-2010-1321, CVE-2010-1436, CVE-2010-1437, CVE-2010-1641, CVE-2010-2066, CVE-2010-2070, CVE-2010-2226, CVE-2010-2227, CVE-2010-2240, CVE-2010-2248, CVE-2010-2521, CVE-2010-2524, CVE-2010-2928, CVE-2010-2939, CVE-2010-3081, CVE-2010-3541, CVE-2010-3548, CVE-2010-3549, CVE-2010-3550, CVE-2010-3551, CVE-2010-3553, CVE-2010-3554, CVE-2010-3556, CVE-2010-3557, CVE-2010-3559, CVE-2010-3561, CVE-2010-3562, CVE-2010-3565, CVE-2010-3566, CVE-2010-3567, CVE-2010-3568, CVE-2010-3569, CVE-2010-3571, CVE-2010-3572, CVE-2010-3573, CVE-2010-3574, CVE-2010-3864</cveID><desc>a. vCenter Server and vCenter Update Manager update Microsoft
+SQL Server 2005 Express Edition to Service Pack 3
+&lt;br&gt;
+Microsoft SQL Server 2005 Express Edition (SQL Express)
+distributed with vCenter Server 4.1 Update 1 and vCenter Update
+Manager 4.1 Update 1 is upgraded from  SQL Express Service Pack 2
+to SQL Express Service Pack 3, to address multiple security
+issues that exist in the earlier releases of Microsoft SQL Express.
+&lt;br&gt;
+Customers using other database solutions need not update for
+these issues.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the names CVE-2008-5416, CVE-2008-0085, CVE-2008-0086,
+CVE-2008-0107 and CVE-2008-0106 to the issues addressed in MS SQL
+Express Service Pack 3.
+&lt;br&gt;
+b. vCenter Apache Tomcat Management Application Credential Disclosure
+&lt;br&gt;
+The Apache Tomcat Manager application configuration file contains
+logon credentials that can be read by unprivileged local users.
+&lt;br&gt;
+The issue is resolved by removing the Manager application in
+vCenter 4.1 Update 1.
+&lt;br&gt;
+If vCenter 4.1 is updated to vCenter 4.1 Update 1 the logon
+credentials are not present in the configuration file after the
+update.
+&lt;br&gt;
+VMware would like to thank Claudio Criscione of Secure Networking
+for reporting this issue to us.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures Project (cve.mitre.org)
+has assigned the name CVE-2010-2928 to this issue.
+&lt;br&gt;
+c. vCenter Server and ESX, Oracle (Sun) JRE is updated to version
+1.6.0_21
+&lt;br&gt;
+Oracle (Sun) JRE update to version 1.6.0_21, which addresses
+multiple security issues that existed in earlier releases of
+Oracle (Sun) JRE.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the following names to the security issues fixed in
+Oracle (Sun) JRE 1.6.0_19: CVE-2009-3555, CVE-2010-0082,
+CVE-2010-0084, CVE-2010-0085, CVE-2010-0087, CVE-2010-0088,
+CVE-2010-0089, CVE-2010-0090, CVE-2010-0091, CVE-2010-0092,
+CVE-2010-0093, CVE-2010-0094, CVE-2010-0095, CVE-2010-0837,
+CVE-2010-0838, CVE-2010-0839, CVE-2010-0840, CVE-2010-0841,
+CVE-2010-0842, CVE-2010-0843, CVE-2010-0844, CVE-2010-0845,
+CVE-2010-0846, CVE-2010-0847, CVE-2010-0848, CVE-2010-0849,
+CVE-2010-0850.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the following name to the security issue fixed in
+Oracle (Sun) JRE 1.6.0_20: CVE-2010-0886.
+&lt;br&gt;
+d. vCenter Update Manager Oracle (Sun) JRE is updated to version
+1.5.0_26
+&lt;br&gt;
+Oracle (Sun) JRE update to version 1.5.0_26, which addresses
+multiple security issues that existed in earlier releases of
+Oracle (Sun) JRE.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the following names to the security issues fixed in
+Oracle (Sun) JRE 1.5.0_26: CVE-2010-3556, CVE-2010-3566,
+CVE-2010-3567, CVE-2010-3550, CVE-2010-3561, CVE-2010-3573,
+CVE-2010-3565,CVE-2010-3568, CVE-2010-3569,  CVE-2009-3555,
+CVE-2010-1321, CVE-2010-3548, CVE-2010-3551, CVE-2010-3562,
+CVE-2010-3571, CVE-2010-3554, CVE-2010-3559, CVE-2010-3572,
+CVE-2010-3553, CVE-2010-3549, CVE-2010-3557, CVE-2010-3541,
+CVE-2010-3574.
+&lt;br&gt;
+e. vCenter Server and ESX Apache Tomcat updated to version 6.0.28
+&lt;br&gt;
+Apache Tomcat updated to version 6.0.28, which addresses multiple
+security issues that existed in earlier releases of Apache Tomcat
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the following names to the security issues fixed in
+Apache Tomcat 6.0.24: CVE-2009-2693, CVE-2009-2901, CVE-2009-2902,i
+and CVE-2009-3548.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the following names to the security issues fixed in
+Apache Tomcat 6.0.28: CVE-2010-2227, CVE-2010-1157.
+&lt;br&gt;
+f. vCenter Server third party component OpenSSL updated to version
+0.9.8n
+&lt;br&gt;
+The version of the OpenSSL library in vCenter Server is updated to
+0.9.8n.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the names CVE-2010-0740 and CVE-2010-0433 to the
+issues addressed in this version of OpenSSL.
+&lt;br&gt;
+g. ESX third party component OpenSSL updated to version 0.9.8p
+&lt;br&gt;
+The version of the ESX OpenSSL library is updated to 0.9.8p.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the names CVE-2010-3864 and CVE-2010-2939 to the
+issues addressed in this update.
+&lt;br&gt;
+h. ESXi third party component cURL updated
+&lt;br&gt;
+The version of cURL library in ESXi is updated.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the name CVE-2010-0734 to the issues addressed in
+this update.
+&lt;br&gt;
+i. ESX third party component pam_krb5 updated
+&lt;br&gt;
+The version of pam_krb5 library is updated.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the names CVE-2008-3825 and CVE-2009-1384 to the
+issues addressed in the update.
+&lt;br&gt;
+j. ESX third party update for Service Console kernel
+&lt;br&gt;
+The Service Console kernel is updated to include kernel version
+2.6.18-194.11.1.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the names CVE-2010-1084, CVE-2010-2066, CVE-2010-2070,
+CVE-2010-2226, CVE-2010-2248, CVE-2010-2521, CVE-2010-2524,
+CVE-2010-0008, CVE-2010-0415, CVE-2010-0437, CVE-2009-4308,
+CVE-2010-0003, CVE-2010-0007, CVE-2010-0307, CVE-2010-1086,
+CVE-2010-0410, CVE-2010-0730, CVE-2010-1085, CVE-2010-0291,
+CVE-2010-0622, CVE-2010-1087, CVE-2010-1173, CVE-2010-1437,
+CVE-2010-1088, CVE-2010-1187, CVE-2010-1436, CVE-2010-1641, and
+CVE-2010-3081 to the issues addressed in the update.
+&lt;br&gt;
+Notes :
+- The update also addresses the 64-bit compatibility mode
+stack pointer underflow issue identified by CVE-2010-3081. This
+issue was patched in an ESX 4.1 patch prior to the release of
+ESX 4.1 Update 1 and in a previous ESX 4.0 patch release.
+- The update also addresses CVE-2010-2240 for ESX 4.0.
+</desc><repair>http://www.vmware.com/security/advisories/VMSA-2011-0003.html</repair></vuln><vuln><name>VMSA-2011-0003.2 : Third party component updates for VMware vCenter Server, vCenter Update Manager, ESXi and ESX</name><cveID>CVE-2008-0085, CVE-2008-0086, CVE-2008-0106, CVE-2008-0107, CVE-2008-3825, CVE-2008-5416, CVE-2009-1384, CVE-2009-2693, CVE-2009-2901, CVE-2009-2902, CVE-2009-3548, CVE-2009-3555, CVE-2009-4308, CVE-2010-0003, CVE-2010-0007, CVE-2010-0008, CVE-2010-0082, CVE-2010-0084, CVE-2010-0085, CVE-2010-0087, CVE-2010-0088, CVE-2010-0089, CVE-2010-0090, CVE-2010-0091, CVE-2010-0092, CVE-2010-0093, CVE-2010-0094, CVE-2010-0095, CVE-2010-0291, CVE-2010-0307, CVE-2010-0410, CVE-2010-0415, CVE-2010-0433, CVE-2010-0437, CVE-2010-0622, CVE-2010-0730, CVE-2010-0734, CVE-2010-0740, CVE-2010-0837, CVE-2010-0838, CVE-2010-0839, CVE-2010-0840, CVE-2010-0841, CVE-2010-0842, CVE-2010-0843, CVE-2010-0844, CVE-2010-0845, CVE-2010-0846, CVE-2010-0847, CVE-2010-0848, CVE-2010-0849, CVE-2010-0850, CVE-2010-0886, CVE-2010-1084, CVE-2010-1085, CVE-2010-1086, CVE-2010-1087, CVE-2010-1088, CVE-2010-1157, CVE-2010-1173, CVE-2010-1187, CVE-2010-1321, CVE-2010-1436, CVE-2010-1437, CVE-2010-1641, CVE-2010-2066, CVE-2010-2070, CVE-2010-2226, CVE-2010-2227, CVE-2010-2240, CVE-2010-2248, CVE-2010-2521, CVE-2010-2524, CVE-2010-2928, CVE-2010-2939, CVE-2010-3081, CVE-2010-3541, CVE-2010-3548, CVE-2010-3549, CVE-2010-3550, CVE-2010-3551, CVE-2010-3553, CVE-2010-3554, CVE-2010-3556, CVE-2010-3557, CVE-2010-3559, CVE-2010-3561, CVE-2010-3562, CVE-2010-3565, CVE-2010-3566, CVE-2010-3567, CVE-2010-3568, CVE-2010-3569, CVE-2010-3571, CVE-2010-3572, CVE-2010-3573, CVE-2010-3574, CVE-2010-3864</cveID><desc>a. vCenter Server and vCenter Update Manager update Microsoft
+SQL Server 2005 Express Edition to Service Pack 3
+&lt;br&gt;
+Microsoft SQL Server 2005 Express Edition (SQL Express)
+distributed with vCenter Server 4.1 Update 1 and vCenter Update
+Manager 4.1 Update 1 is upgraded from  SQL Express Service Pack 2
+to SQL Express Service Pack 3, to address multiple security
+issues that exist in the earlier releases of Microsoft SQL Express.
+&lt;br&gt;
+Customers using other database solutions need not update for
+these issues.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the names CVE-2008-5416, CVE-2008-0085, CVE-2008-0086,
+CVE-2008-0107 and CVE-2008-0106 to the issues addressed in MS SQL
+Express Service Pack 3.
+&lt;br&gt;
+b. vCenter Apache Tomcat Management Application Credential Disclosure
+&lt;br&gt;
+The Apache Tomcat Manager application configuration file contains
+logon credentials that can be read by unprivileged local users.
+&lt;br&gt;
+The issue is resolved by removing the Manager application in
+vCenter 4.1 Update 1.
+&lt;br&gt;
+If vCenter 4.1 is updated to vCenter 4.1 Update 1 the logon
+credentials are not present in the configuration file after the
+update.
+&lt;br&gt;
+VMware would like to thank Claudio Criscione of Secure Networking
+for reporting this issue to us.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures Project (cve.mitre.org)
+has assigned the name CVE-2010-2928 to this issue.
+&lt;br&gt;
+c. vCenter Server and ESX, Oracle (Sun) JRE is updated to version
+1.6.0_21
+&lt;br&gt;
+Oracle (Sun) JRE update to version 1.6.0_21, which addresses
+multiple security issues that existed in earlier releases of
+Oracle (Sun) JRE.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the following names to the security issues fixed in
+Oracle (Sun) JRE 1.6.0_19: CVE-2009-3555, CVE-2010-0082,
+CVE-2010-0084, CVE-2010-0085, CVE-2010-0087, CVE-2010-0088,
+CVE-2010-0089, CVE-2010-0090, CVE-2010-0091, CVE-2010-0092,
+CVE-2010-0093, CVE-2010-0094, CVE-2010-0095, CVE-2010-0837,
+CVE-2010-0838, CVE-2010-0839, CVE-2010-0840, CVE-2010-0841,
+CVE-2010-0842, CVE-2010-0843, CVE-2010-0844, CVE-2010-0845,
+CVE-2010-0846, CVE-2010-0847, CVE-2010-0848, CVE-2010-0849,
+CVE-2010-0850.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the following name to the security issue fixed in
+Oracle (Sun) JRE 1.6.0_20: CVE-2010-0886.
+&lt;br&gt;
+d. vCenter Update Manager Oracle (Sun) JRE is updated to version
+1.5.0_26
+&lt;br&gt;
+Oracle (Sun) JRE update to version 1.5.0_26, which addresses
+multiple security issues that existed in earlier releases of
+Oracle (Sun) JRE.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the following names to the security issues fixed in
+Oracle (Sun) JRE 1.5.0_26: CVE-2010-3556, CVE-2010-3566,
+CVE-2010-3567, CVE-2010-3550, CVE-2010-3561, CVE-2010-3573,
+CVE-2010-3565,CVE-2010-3568, CVE-2010-3569,  CVE-2009-3555,
+CVE-2010-1321, CVE-2010-3548, CVE-2010-3551, CVE-2010-3562,
+CVE-2010-3571, CVE-2010-3554, CVE-2010-3559, CVE-2010-3572,
+CVE-2010-3553, CVE-2010-3549, CVE-2010-3557, CVE-2010-3541,
+CVE-2010-3574.
+&lt;br&gt;
+e. vCenter Server and ESX Apache Tomcat updated to version 6.0.28
+&lt;br&gt;
+Apache Tomcat updated to version 6.0.28, which addresses multiple
+security issues that existed in earlier releases of Apache Tomcat
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the following names to the security issues fixed in
+Apache Tomcat 6.0.24: CVE-2009-2693, CVE-2009-2901, CVE-2009-2902,i
+and CVE-2009-3548.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the following names to the security issues fixed in
+Apache Tomcat 6.0.28: CVE-2010-2227, CVE-2010-1157.
+&lt;br&gt;
+f. vCenter Server third party component OpenSSL updated to version
+0.9.8n
+&lt;br&gt;
+The version of the OpenSSL library in vCenter Server is updated to
+0.9.8n.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the names CVE-2010-0740 and CVE-2010-0433 to the
+issues addressed in this version of OpenSSL.
+&lt;br&gt;
+g. ESX third party component OpenSSL updated to version 0.9.8p
+&lt;br&gt;
+The version of the ESX OpenSSL library is updated to 0.9.8p.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the names CVE-2010-3864 and CVE-2010-2939 to the
+issues addressed in this update.
+&lt;br&gt;
+h. ESXi third party component cURL updated
+&lt;br&gt;
+The version of cURL library in ESXi is updated.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the name CVE-2010-0734 to the issues addressed in
+this update.
+&lt;br&gt;
+i. ESX third party component pam_krb5 updated
+&lt;br&gt;
+The version of pam_krb5 library is updated.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the names CVE-2008-3825 and CVE-2009-1384 to the
+issues addressed in the update.
+&lt;br&gt;
+j. ESX third party update for Service Console kernel
+&lt;br&gt;
+The Service Console kernel is updated to include kernel version
+2.6.18-194.11.1.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the names CVE-2010-1084, CVE-2010-2066, CVE-2010-2070,
+CVE-2010-2226, CVE-2010-2248, CVE-2010-2521, CVE-2010-2524,
+CVE-2010-0008, CVE-2010-0415, CVE-2010-0437, CVE-2009-4308,
+CVE-2010-0003, CVE-2010-0007, CVE-2010-0307, CVE-2010-1086,
+CVE-2010-0410, CVE-2010-0730, CVE-2010-1085, CVE-2010-0291,
+CVE-2010-0622, CVE-2010-1087, CVE-2010-1173, CVE-2010-1437,
+CVE-2010-1088, CVE-2010-1187, CVE-2010-1436, CVE-2010-1641, and
+CVE-2010-3081 to the issues addressed in the update.
+&lt;br&gt;
+Notes :
+- The update also addresses the 64-bit compatibility mode
+stack pointer underflow issue identified by CVE-2010-3081. This
+issue was patched in an ESX 4.1 patch prior to the release of
+ESX 4.1 Update 1 and in a previous ESX 4.0 patch release.
+- The update also addresses CVE-2010-2240 for ESX 4.0.
+</desc><repair>http://www.vmware.com/security/advisories/VMSA-2011-0001.html</repair></vuln><vuln><name>VMSA-2012-0001.2 : VMware ESXi and ESX updates to third party library and ESX Service Console</name><cveID>CVE-2009-3560, CVE-2009-3720, CVE-2010-0547, CVE-2010-0787, CVE-2010-1634, CVE-2010-2059, CVE-2010-2089, CVE-2010-3493, CVE-2010-4649, CVE-2011-0695, CVE-2011-0711, CVE-2011-0726, CVE-2011-1015, CVE-2011-1044, CVE-2011-1078, CVE-2011-1079, CVE-2011-1080, CVE-2011-1093, CVE-2011-1163, CVE-2011-1166, CVE-2011-1170, CVE-2011-1171, CVE-2011-1172, CVE-2011-1182, CVE-2011-1494, CVE-2011-1495, CVE-2011-1521, CVE-2011-1573, CVE-2011-1576, CVE-2011-1577, CVE-2011-1593, CVE-2011-1678, CVE-2011-1745, CVE-2011-1746, CVE-2011-1763, CVE-2011-1776, CVE-2011-1780, CVE-2011-1936, CVE-2011-2022, CVE-2011-2192, CVE-2011-2213, CVE-2011-2482, CVE-2011-2491, CVE-2011-2492, CVE-2011-2495, CVE-2011-2517, CVE-2011-2519, CVE-2011-2522, CVE-2011-2525, CVE-2011-2689, CVE-2011-2694, CVE-2011-2901, CVE-2011-3378</cveID><desc>a. ESX third party update for Service Console kernel
+&lt;br&gt;
+The ESX Service Console Operating System (COS) kernel is updated to
+kernel-2.6.18-274.3.1.el5 to fix multiple security issues in the
+COS kernel.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org) has
+assigned the names CVE-2011-0726, CVE-2011-1078, CVE-2011-1079,
+CVE-2011-1080, CVE-2011-1093, CVE-2011-1163, CVE-2011-1166,
+CVE-2011-1170, CVE-2011-1171, CVE-2011-1172, CVE-2011-1494,
+CVE-2011-1495, CVE-2011-1577, CVE-2011-1763, CVE-2010-4649,
+CVE-2011-0695, CVE-2011-0711, CVE-2011-1044, CVE-2011-1182,
+CVE-2011-1573, CVE-2011-1576, CVE-2011-1593, CVE-2011-1745,
+CVE-2011-1746, CVE-2011-1776, CVE-2011-1936, CVE-2011-2022,
+CVE-2011-2213, CVE-2011-2492, CVE-2011-1780, CVE-2011-2525,
+CVE-2011-2689, CVE-2011-2482, CVE-2011-2491, CVE-2011-2495,
+CVE-2011-2517, CVE-2011-2519, CVE-2011-2901 to these issues.
+&lt;br&gt;
+b. ESX third party update for Service Console cURL RPM
+&lt;br&gt;
+The ESX Service Console (COS) curl RPM is updated to cURL-7.15.5.9
+resolving a security issues.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org) has
+assigned the name CVE-2011-2192 to this issue.
+&lt;br&gt;
+c. ESX third party update for Service Console nspr and nss RPMs
+&lt;br&gt;
+The ESX Service Console (COS) nspr and nss RPMs are updated to
+nspr-4.8.8-1.el5_7 and nss-3.12.10-4.el5_7 respectively resolving
+a security issues.
+&lt;br&gt;
+A Certificate Authority (CA) issued fraudulent SSL certificates and
+Netscape Portable Runtime (NSPR) and Network Security Services (NSS)
+contain the built-in tokens of this fraudulent Certificate
+Authority. This update renders all SSL certificates signed by the
+fraudulent CA as untrusted for all uses.
+&lt;br&gt;
+d. ESX third party update for Service Console rpm RPMs
+&lt;br&gt;
+The ESX Service Console Operating System (COS) rpm packages are
+updated to popt-1.10.2.3-22.el5_7.2, rpm-4.4.2.3-22.el5_7.2,
+rpm-libs-4.4.2.3-22.el5_7.2 and rpm-python-4.4.2.3-22.el5_7.2
+which fixes multiple security issues.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org) has
+assigned the names CVE-2010-2059 and CVE-2011-3378 to these
+issues.
+&lt;br&gt;
+e. ESX third party update for Service Console samba RPMs
+&lt;br&gt;
+The ESX Service Console Operating System (COS) samba packages are
+updated to samba-client-3.0.33-3.29.el5_7.4,
+samba-common-3.0.33-3.29.el5_7.4 and
+libsmbclient-3.0.33-3.29.el5_7.4 which fixes multiple security
+issues in the Samba client.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org) has
+assigned the names CVE-2010-0547, CVE-2010-0787, CVE-2011-1678,
+CVE-2011-2522 and CVE-2011-2694 to these issues.
+&lt;br&gt;
+Note that ESX does not include the Samba Web Administration Tool
+(SWAT) and therefore ESX COS is not affected by CVE-2011-2522 and
+CVE-2011-2694.
+&lt;br&gt;
+f. ESX third party update for Service Console python package
+&lt;br&gt;
+The ESX Service Console (COS) python package is updated to
+2.4.3-44 which fixes multiple security issues.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org) has
+assigned the names CVE-2009-3720, CVE-2010-3493, CVE-2011-1015 and
+CVE-2011-1521 to these issues.
+&lt;br&gt;
+g. ESXi update to third party component python
+&lt;br&gt;
+The python third party library is updated to python 2.5.6 which
+fixes multiple security issues.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org) has
+assigned the names CVE-2009-3560, CVE-2009-3720, CVE-2010-1634,
+CVE-2010-2089, and CVE-2011-1521 to these issues.
+</desc><repair>http://www.vmware.com/security/advisories/VMSA-2012-0001.html</repair></vuln><vuln><name>VMSA-2012-0005.2 : VMware vCenter Server, Orchestrator, Update Manager, vShield, vSphere Client, Workstation, Player, ESXi, and ESX address several security issues</name><cveID>CVE-2010-0405, CVE-2011-3190, CVE-2011-3375, CVE-2011-3389, CVE-2011-3546, CVE-2011-3547, CVE-2011-3554, CVE-2012-0022, CVE-2012-1508, CVE-2012-1510, CVE-2012-1512</cveID><desc>a. VMware Tools Display Driver Privilege Escalation
+&lt;br&gt;
+The VMware XPDM and WDDM display drivers contain buffer overflow
+vulnerabilities and the XPDM display driver does not properly
+check for NULL pointers. Exploitation of these issues may lead
+to local privilege escalation on Windows-based Guest Operating
+Systems.
+&lt;br&gt;
+VMware would like to thank Tarjei Mandt for reporting theses
+issues to us.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the names CVE-2012-1509 (XPDM buffer overrun),
+CVE-2012-1510 (WDDM buffer overrun) and CVE-2012-1508 (XPDM null
+pointer dereference) to these issues.
+&lt;br&gt;
+Note: CVE-2012-1509 doesn't affect ESXi and ESX.
+&lt;br&gt;
+b. vSphere Client internal browser input validation vulnerability
+&lt;br&gt;
+The vSphere Client has an internal browser that renders html
+pages from log file entries. This browser doesn't properly
+sanitize input and may run script that is introduced into the
+log files. In order for the script to run, the user would need
+to open an individual, malicious log file entry. The script
+would run with the permissions of the user that runs the vSphere
+Client.
+&lt;br&gt;
+VMware would like to thank Edward Torkington for reporting this
+issue to us.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the name CVE-2012-1512 to this issue.
+&lt;br&gt;
+In order to remediate the issue, the vSphere Client of the
+vSphere 5.0 Update 1 release or the vSphere 4.1 Update 2 release
+needs to be installed. The vSphere Clients that come with
+vSphere 4.0 and vCenter Server 2.5 are not affected.
+&lt;br&gt;
+c. vCenter Orchestrator Password Disclosure
+&lt;br&gt;
+The vCenter Orchestrator (vCO) Web Configuration tool reflects
+back the vCenter Server password as part of the webpage. This
+might allow the logged-in vCO administrator to retrieve the
+vCenter Server password.
+&lt;br&gt;
+VMware would like to thank Alexey Sintsov from Digital Security
+Research Group for reporting this issue to us.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the name CVE-2012-1513 to this issue.
+&lt;br&gt;
+d. vShield Manager Cross-Site Request Forgery vulnerability
+&lt;br&gt;
+The vShield Manager (vSM) interface has a Cross-Site Request
+Forgery vulnerability. If an attacker can convince an
+authenticated user to visit a malicious link, the attacker may
+force the victim to forward an authenticated request to the
+server.
+&lt;br&gt;
+VMware would like to thank Frans Pehrson of Xxor AB
+(www.xxor.se) and Claudio Criscione for independently reporting
+this issue to us
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the name CVE-2012-1514 to this issue.
+&lt;br&gt;
+e. vCenter Update Manager, Oracle (Sun) JRE update 1.6.0_30
+&lt;br&gt;
+Oracle (Sun) JRE is updated to version 1.6.0_30, which addresses
+multiple security issues that existed in earlier releases of
+Oracle (Sun) JRE.
+&lt;br&gt;
+Oracle has documented the CVE identifiers that are addressed in
+JRE 1.6.0_29 and JRE 1.6.0_30 in the Oracle Java SE Critical
+Patch Update Advisory of October 2011. The References section
+provides a link to this advisory.
+&lt;br&gt;
+f. vCenter Server Apache Tomcat update 6.0.35
+&lt;br&gt;
+Apache Tomcat has been updated to version 6.0.35 to address
+multiple security issues.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the names CVE-2011-3190, CVE-2011-3375, and
+CVE-2012-0022 to these issues.
+&lt;br&gt;
+g. ESXi update to third party component bzip2
+&lt;br&gt;
+The bzip2 library is updated to version 1.0.6, which resolves a
+security issue.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the name CVE-2010-0405 to this issue.
+</desc><repair>http://www.vmware.com/security/advisories/VMSA-2012-0005.html</repair></vuln><vuln><name>VMSA-2012-0006.2 : VMware Workstation, ESXi, and ESX address several security issues</name><cveID>CVE-2011-2482, CVE-2011-3191, CVE-2011-4348, CVE-2011-4862, CVE-2012-1515</cveID><desc>a. VMware ROM Overwrite Privilege Escalation
+&lt;br&gt;
+A flaw in the way port-based I/O is handled allows for modifying
+Read-Only Memory that belongs to the Virtual DOS Machine.
+Exploitation of this issue may lead to privilege escalation on
+Guest Operating Systems that run Windows 2000, Windows XP
+32-bit, Windows Server 2003 32-bit or Windows Server 2003 R2
+32-bit.
+&lt;br&gt;
+VMware would like to thank Derek Soeder of Ridgeway Internet
+Security, L.L.C. for reporting this issue to us.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the name CVE-2012-1515 to this issue.
+&lt;br&gt;
+b. ESX third party update for Service Console kernel
+&lt;br&gt;
+The ESX Service Console Operating System (COS) kernel is updated
+to kernel-400.2.6.18-238.4.11.591731 to fix multiple security
+issues in the COS kernel.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the names CVE-2011-2482, CVE-2011-3191 and
+CVE-2011-4348 to these issues.
+&lt;br&gt;
+c. ESX third party update for Service Console krb5 RPM
+&lt;br&gt;
+This patch updates the krb5-libs and krb5-workstation RPMs to
+version 1.6.1-63.el5_7 to resolve a security issue.
+&lt;br&gt;
+By default, the affected krb5-telnet and ekrb5-telnet services
+do not run. The krb5 telnet daemon is an xinetd service.  You
+can run the following commands to check if krb5 telnetd is
+enabled :
+/sbin/chkconfig --list krb5-telnet
+/sbin/chkconfig --list ekrb5-telnet
+&lt;br&gt;
+The output of these commands displays if krb5 telnet is enabled.
+&lt;br&gt;
+You can run the following commands to disable krb5 telnet
+daemon :
+&lt;br&gt;
+/sbin/chkconfig krb5-telnet off
+/sbin/chkconfig ekrb5-telnet off
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the name CVE-2011-4862 to this issue.
+</desc><repair>http://www.vmware.com/security/advisories/VMSA-2012-0006.html</repair></vuln><vuln><name>VMSA-2012-0007.1 : VMware hosted products and ESXi/ESX patches address privilege escalation</name><cveID>CVE-2012-1518</cveID><desc>a. VMware Tools Incorrect Folder Permissions Privilege Escalation
+&lt;br&gt;
+The access control list of the VMware Tools folder is incorrectly
+set. Exploitation of this issue may lead to local privilege
+escalation on Windows-based Guest Operating Systems.
+&lt;br&gt;
+VMware would like to thank Tavis Ormandy for reporting this issue
+to us.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the name CVE-2012-1518 to this issue.
+</desc><repair>http://www.vmware.com/security/advisories/VMSA-2012-0006.html</repair></vuln><vuln><name>VMSA-2012-0008 : VMware ESX updates to ESX Service Console</name><cveID>CVE-2010-4008, CVE-2011-0216, CVE-2011-1944, CVE-2011-2834, CVE-2011-3191, CVE-2011-3905, CVE-2011-3919, CVE-2011-4348, CVE-2012-0028</cveID><desc>a. ESX third party update for Service Console kernel
+&lt;br&gt;
+The ESX Service Console Operating System (COS) kernel is updated
+which addresses several security issues in the COS kernel.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org) has
+assigned the names CVE-2011-3191, CVE-2011-4348 and CVE-2012-0028 to
+these issues.
+&lt;br&gt;
+b. Updated ESX Service Console package libxml2
+&lt;br&gt;
+The ESX Console Operating System (COS) libxml2 rpms are updated to
+the following versions libxml2-2.6.26-2.1.12.el5_7.2 and
+libxml2-python-2.6.26-2.1.12.el5_7.2 which addresses several
+security issues.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org) has
+assigned the names CVE-2010-4008, CVE-2011-0216, CVE-2011-1944,
+CVE-2011-2834, CVE-2011-3905, CVE-2011-3919 to these issues.
+</desc><repair>http://www.vmware.com/security/advisories/VMSA-2012-0008.html</repair></vuln><vuln><name>VMSA-2012-0009.2 : VMware Workstation, Player, Fusion, ESXi and ESX patches address critical security issues</name><cveID>CVE-2012-1516, CVE-2012-1517, CVE-2012-2448, CVE-2012-2449, CVE-2012-2450</cveID><desc>a. VMware host memory overwrite vulnerability (data pointers)
+&lt;br&gt;
+Due to a flaw in the handler function for RPC commands, it is
+possible to manipulate data pointers within the VMX process.
+This vulnerability may allow a guest user to crash the VMX
+process or potentially execute code on the host.
+&lt;br&gt;
+Workaround
+&lt;br&gt;
+- Configure virtual machines to use less than 4 GB of memory.
+Virtual machines that have less than 4GB of memory are not 
+affected.
+&lt;br&gt;
+OR
+&lt;br&gt;
+- Disable VIX messages from each guest VM by editing the
+configuration file (.vmx) for the virtual machine as described
+in VMware Knowledge Base article 1714. Add the following line :
+isolation.tools.vixMessage.disable = 'TRUE'.
+Note: This workaround is not valid for Workstation 7.x and
+Fusion 3.x
+&lt;br&gt;
+Mitigation
+&lt;br&gt;
+- Do not allow untrusted users access to your virtual machines.
+Root or Administrator level permissions are not required to
+exploit this issue.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the name CVE-2012-1516 to this issue.
+&lt;br&gt;
+VMware would like to thank Derek Soeder of Ridgeway Internet
+Security, L.L.C. for reporting this issue to us.
+&lt;br&gt;
+b. VMware host memory overwrite vulnerability (function pointers)
+&lt;br&gt;
+Due to a flaw in the handler function for RPC commands, it is
+possible to manipulate function pointers within the VMX process.
+This vulnerability may allow a guest user to crash the VMX
+process or potentially execute code on the host.
+&lt;br&gt;
+Workaround
+&lt;br&gt;
+- None identified
+&lt;br&gt;
+Mitigation
+&lt;br&gt;
+- Do not allow untrusted users access to your virtual machines.
+Root or Administrator level permissions are not required to
+exploit this issue.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the name CVE-2012-1517 to this issue.
+&lt;br&gt;
+VMware would like to thank Derek Soeder of Ridgeway Internet
+Security, L.L.C. for reporting this issue to us.
+&lt;br&gt;
+c. ESX NFS traffic parsing vulnerability
+&lt;br&gt;
+Due to a flaw in the handling of NFS traffic, it is possible to
+overwrite memory. This vulnerability may allow a user with
+access to the network to execute code on the ESXi/ESX host
+without authentication. The issue is not present in cases where
+there is no NFS traffic.
+&lt;br&gt;
+Workaround
+- None identified
+&lt;br&gt;
+Mitigation
+- Connect only to trusted NFS servers
+- Segregate the NFS network
+- Harden your NFS server
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the name CVE-2012-2448 to this issue.
+&lt;br&gt;
+d. VMware floppy device out-of-bounds memory write
+&lt;br&gt;
+Due to a flaw in the virtual floppy configuration it is possible
+to perform an out-of-bounds memory write. This vulnerability may
+allow a guest user to crash the VMX process or potentially
+execute code on the host.
+&lt;br&gt;
+Workaround
+&lt;br&gt;
+- Remove the virtual floppy drive from the list of virtual IO
+devices. The VMware hardening guides recommend removing unused
+virtual IO devices in general.
+&lt;br&gt;
+Mitigation
+&lt;br&gt;
+- Do not allow untrusted root users in your virtual
+machines. Root or Administrator level permissions are required
+to exploit this issue.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the name CVE-2012-2449 to this issue.
+&lt;br&gt;
+e. VMware SCSI device unchecked memory write
+&lt;br&gt;
+Due to a flaw in the SCSI device registration it is possible to
+perform an unchecked write into memory. This vulnerability may
+allow a guest user to crash the VMX process or potentially
+execute code on the host.
+&lt;br&gt;
+Workaround
+&lt;br&gt;
+- Remove the virtual SCSI controller from the list of virtual IO
+devices. The VMware hardening guides recommend removing unused
+virtual IO devices in general.
+&lt;br&gt;
+Mitigation
+&lt;br&gt;
+- Do not allow untrusted root users access to your virtual
+machines.  Root or Administrator level permissions are
+required to exploit this issue.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the name CVE-2012-2450 to this issue.
+</desc><repair>http://www.vmware.com/security/advisories/VMSA-2012-0009.html</repair></vuln><vuln><name>VMSA-2012-0011 : VMware hosted products and ESXi and ESX patches address security issues</name><cveID>CVE-2012-3288, CVE-2012-3289</cveID><desc>a. VMware Host Checkpoint file memory corruption
+&lt;br&gt;
+Input data is not properly validated when loading Checkpoint files.
+This may allow an attacker with the ability to load a specially
+crafted Checkpoint file to execute arbitrary code on the host.
+&lt;br&gt;
+Workaround
+- None identified
+&lt;br&gt;
+Mitigation
+- Do not import virtual machines from untrusted sources.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the name CVE-2012-3288 to this issue.
+&lt;br&gt;
+b. VMware Virtual Machine Remote Device Denial of Service
+&lt;br&gt;
+A device (e.g. CD-ROM, keyboard) that is available to a virtual
+machine while physically connected to a system that does not run the
+virtual machine is referred to as a remote device.
+&lt;br&gt;
+Traffic coming from remote virtual devices is incorrectly handled.
+This may allow an attacker who is capable of manipulating the
+traffic from a remote virtual device to crash the virtual machine.
+&lt;br&gt;
+Workaround
+- None identified
+&lt;br&gt;
+Mitigation
+- Users need administrative privileges on the virtual machine
+in order to attach remote devices.
+- Do not attach untrusted remote devices to a virtual machine.
+&lt;br&gt;
+The Common Vulnerabilities and Exposures project (cve.mitre.org)
+has assigned the name CVE-2012-3289 to this issue.
+</desc><repair>http://www.vmware.com/security/advisories/VMSA-2012-0011.html</repair></vuln></result>

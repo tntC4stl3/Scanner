@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<serverInfo>
+    <arch>x86_64</arch>
+    <release>VMware ESX 4.1.0 build-260247</release>
+    <version>ESX 4.1</version>
+    <patches>Bulletin ID Installed Summary</patches>
+    <NewestBundle>None</NewestBundle>
+</serverInfo>

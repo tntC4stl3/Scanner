@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title>Scan Result</title>
+	</head>
+<body>
+	<center>
+		<b><font size="20">Scan Result</font></b>
+	</center>
+<script language="javascript">
+     document.write("<table border='1'>");
+     document.write("<thead>");
+     document.write("<tr><th>Name</th><th>CVE</th><th>Description</th><th>Repair</th></tr>");
+     document.write("</thead>");
+
+   //  document.write("<tfoot>");
+   //  document.write("<tr><th colspan='2'>This is my CD collection</th></tr>");
+   //  document.write("</tfoot>");
+var xmlDoc=null;
+if (window.ActiveXObject)
+{
+      xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
+}
+else if (document.implementation.createDocument)
+{
+       xmlDoc=document.implementation.createDocument("","",null);
+}
+else
+{
+     alert('你的浏览器不支持此脚本！');
+}
+if (xmlDoc!=null) 
+{
+    xmlDoc.async=false;
+    xmlDoc.load("result.xml");
+    var x=xmlDoc.getElementsByTagName("vuln");
+    for (var i=0;i<x.length;i++)
+    { 
+         document.write("<tr>");
+         document.write("<td>" + x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue + "</td>");
+         document.write("<td width=\"120\">" + x[i].getElementsByTagName("cveID")[0].childNodes[0].nodeValue + "</td>");
+         document.write("<td>" + x[i].getElementsByTagName("desc")[0].childNodes[0].nodeValue + "</td>");
+         document.write("<td>" + x[i].getElementsByTagName("repair")[0].childNodes[0].nodeValue + "</td>");
+         document.write("</tr>");
+      }
+document.write("</table>");
+}
+</script>
+</body>
+</html>   
